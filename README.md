@@ -1,14 +1,14 @@
 # ReactMonorepo
 
-## Create new folder
+# Create new folder
 npx create-nx-workspace@latest folder-project-name --preset=react-monorepo
-## Create new app 
+# Create new app 
 npx nx g @nx/react:app app-name --directory=apps/app-name
-## Create new lib 
+# Create new lib 
 nx g @nx/react:library share-name --directory=libs/share-name
-## Run project
+# Run project
 nx run project-name:serve
-## Remove project 
+# Remove project 
 nx g rm project-name
-## Run graph
-nx graph
+# Run graph
+`nx graph`
