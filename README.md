@@ -9,6 +9,10 @@ nx g @nx/react:library share-name --directory=libs/share-name
 # Run project
 nx run project-name:serve
 # Remove project 
+```shell
 nx g rm project-name
+```
 # Run graph
-`nx graph`
+```shell
+nx graph
+```
