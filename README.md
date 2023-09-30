@@ -1,12 +1,13 @@
 # ReactMonorepo
 
 # Create new folder
+
 ```shell
 npx create-nx-workspace@latest folder-project-name --preset=react-monorepo
 ```
 
-```shell
 # Create new app 
+```shell
 npx nx g @nx/react:app app-name --directory=apps/app-name
 ```
 
